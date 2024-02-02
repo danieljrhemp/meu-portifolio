@@ -15,3 +15,5 @@ https://danieldevbel.github.io/Museu-nacional/
 https://github.com/danieldevbel/Chale_hotel/settings/pages
 
 https://danieldevbel.github.io/Calculadora_JS/
+
+https://danieldevbel.github.io/palavra-secreta-react/

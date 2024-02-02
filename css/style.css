@@ -925,7 +925,7 @@ body.offcanvas {
   background-position: center center;
   background-repeat: no-repeat;
   position: relative;
-  height: 300px;
+  height: 200px;
   width: 100%;
   display: block;
   margin-bottom: 30px; }
@@ -935,7 +935,7 @@ body.offcanvas {
     bottom: 0;
     left: 0;
     right: 0;
-    background: #2c98f0;
+    background-size: cover;
     opacity: 0;
     -webkit-transition: 0.3s;
     -o-transition: 0.3s;
@@ -947,7 +947,7 @@ body.offcanvas {
       height: 300px; }
       .project .desc .con .icon {
         position: absolute;
-        bottom: 20px;
+        bottom: 120px;
         left: 20px;
         right: 20px; }
         .project .desc .con .icon span {
@@ -979,8 +979,8 @@ body.offcanvas {
       -webkit-transform: translate3d(0, -15px, 0);
       transform: translate3d(0, -15px, 0);
       margin-bottom: 15px; }
-      .project .desc h3 a {
-        color: #fff; }
+      .project .desc h3 a,p{
+        color: #000; }
     .project .desc span {
       display: block;
       color: rgba(255, 255, 255, 0.7);
@@ -1436,4 +1436,52 @@ body.offcanvas {
 
 .icon-contato{
   margin-top: 25px;
+}
+
+.project #keleuthos{
+  background-image: url('../images/projetos/gif_keleuthos.gif') ;
+}
+
+.project #para-noticias{
+  background-image: url('../images/projetos/gif-para-noticia.gif') ;
+}
+
+.project #palavra-secreta{
+  background-image: url('../images/projetos/gif-palavra-secreta.gif') ;
+}
+
+.project #mata-mosquito{
+  background-image: url('../images/projetos/gif-mata-mosquito.gif') ;
+}
+
+.project #museu-nacional{
+  background-image: url('../images/projetos/gif-museu-nacional.gif') ;
+}
+
+.project #web-cosmeticos{
+  background-image: url('../images/projetos/gif-web-cosmeticos.gif') ;
+}
+
+.project #calculadora{
+  background-image: url('../images/projetos/gif-calculadora.gif') ;
+}
+
+.project #via-cep{
+  background-image: url('../images/projetos/gif-via-cep.gif') ;
+}
+
+.flex-skill {
+  display: flex;
+}
+
+.icone2 {
+  width: 40px;
+  float: left; /* Faz a imagem flutuar à esquerda */
+  margin-bottom: 3px;
+}
+
+.skill{
+  padding-left: 5px; /* Adiciona uma margem à esquerda para espaçamento */
+  margin-top: 11px;
+
 }
