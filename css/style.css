@@ -1473,6 +1473,14 @@ body.offcanvas {
   background-image: url('../images/projetos/gif-via-cep.gif') ;
 }
 
+.project #projeto-rexpa{
+  background-image: url('../images/projetos/gif-projeto-rexpa.gif') ;
+}
+
+.project #lista-tarefas{
+  background-image: url('../images/projetos/gif-lista-tarefas.gif') ;
+}
+
 .flex-skill {
   display: flex;
 }
