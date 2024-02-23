@@ -1,4 +1,4 @@
-  // Função para calcular a idade com base na data de nascimento
+// Função para calcular a idade com base na data de nascimento
 function calcularIdade(dataNascimento) {
     const hoje = new Date();
     const dataNasc = new Date(dataNascimento);
@@ -11,12 +11,14 @@ function calcularIdade(dataNascimento) {
         idade--;
     }
 
+    console.log(hoje)
+    console.log(dataNasc)
     return idade;
     }
 
-  // Função para exibir a idade dinamicamente
-    function exibirIdade() {
-    const dataNascimento = new Date('1997-06-02');
+// Função para exibir a idade dinamicamente
+function exibirIdade() {
+    const dataNascimento = new Date('1997-06-03');
     const idade = calcularIdade(dataNascimento);
     document.getElementById('idade').textContent = idade + ' anos';
     }
@@ -24,4 +26,3 @@ function calcularIdade(dataNascimento) {
     exibirIdade();
 
   setInterval(exibirIdade, 86400000); // Atualiza a cada 24 horas
-
